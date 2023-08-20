@@ -8740,3 +8740,4 @@ node_modules/zustand/umd/shallow.development.js
 node_modules/zustand/umd/shallow.production.js
 node_modules/zustand/umd/vanilla.development.js
 node_modules/zustand/umd/vanilla.production.js
+.env
