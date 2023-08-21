@@ -41,6 +41,7 @@ A live version of my portfolio can be viewed at: https://arosso.co.uk/
 # Acknowledgements
 The desktop PC used on my portfolio is based on the Gaming Desktop PC (https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66) by Yolala1232 (https://sketchfab.com/Yolala1232) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 
+
 The globe used on my portfolio is based on "Stylized planet" (https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70) by cmzw (https://sketchfab.com/cmzw) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 
 # Contact
