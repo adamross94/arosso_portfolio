@@ -6,6 +6,7 @@ Include a table of contents to help users navigate through different sections of
 
 # Images
 Include screenshots or GIFs showcasing the appearance and functionality of your portfolio. This can give users a quick overview.
+![alt text](https://imgur.com/a/ZtUmbmC)
 
 # Features
 List the main features and functionalities of your portfolio project.
