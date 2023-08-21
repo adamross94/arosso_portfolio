@@ -13,7 +13,6 @@ Navigation menu can jump to different sections of the page when clicked
 Projects section can be clicked to view project, alternatively Github logo can be clicked to view the repository for that project. 
 
 # Technologies Used
-Mention the technologies, frameworks, libraries, and tools you used to build your portfolio.
 
   **Dependencies**
   * **@emailjs/browser**: A library for sending emails using the EmailJS service.
