@@ -39,7 +39,7 @@ Explain how users can interact with your portfolio. Describe how to navigate dif
 A live version of my portfolio can be viewed at: https://arosso.co.uk/
 
 # Acknowledgements
-Give credit to any third-party libraries, tools, or resources you used in your project.
+The desktop PC used on my portfolio is based on the Gaming Desktop PC (https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66) by Yolala1232 (https://sketchfab.com/Yolala1232) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 
 # Contact
 For any queries surrounding my portfolio, please use the contact form on https://arosso.co.uk/ or alternatively contact me on me@arosso.co.uk
