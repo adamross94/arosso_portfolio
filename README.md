@@ -6,6 +6,11 @@ This is the repository for my personal portfolio, [arosso.co.uk](https://arosso.
 
 # Features
 List the main features and functionalities of your portfolio project.
+Portfolio is fully responsive, works on all screen sizes
+Portfolio utilises ThreeJS and Framer Motion for the animations used throughout the project
+EmailJS used to handle the contact form, fully functional
+Navigation menu can jump to different sections of the page when clicked
+Projects section can be clicked to view project, alternatively Github logo can be clicked to view the repository for that project. 
 
 # Technologies Used
 Mention the technologies, frameworks, libraries, and tools you used to build your portfolio.
@@ -31,9 +36,6 @@ Mention the technologies, frameworks, libraries, and tools you used to build you
   * **postcss**: A tool for transforming CSS with JavaScript.
   * **tailwindcss**: A utility-first CSS framework for quickly building custom designs.
   * **vite**: A build tool and development server that aims to be faster than other build tools.
-
-# Usage
-Explain how users can interact with your portfolio. Describe how to navigate different sections, view projects, contact you, etc.
 
 # Deployment
 A live version of my portfolio can be viewed at: https://arosso.co.uk/
