@@ -1,8 +1,5 @@
 # arosso.co.uk | Personal Portfolio
-This is the repository for my personal portfolio, arosso.co.uk, built using React. 
-
-# Table of Contents
-Include a table of contents to help users navigate through different sections of the README.
+This is the repository for my personal portfolio, [arosso.co.uk](https://arosso.co.uk/), built using React. 
 
 # Images
 ![alt text](https://i.imgur.com/j2EcCGc.jpg) ![alt text](https://i.imgur.com/FKQTKlc.jpeg) ![alt text](https://i.imgur.com/bfuegbm.jpeg) ![alt text](https://i.imgur.com/9mRvXWq.jpeg)
