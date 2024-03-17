@@ -27,6 +27,12 @@ import {
     mui,
     tou,
     placeholder,
+    nhspydocu,
+    safestaffingdashboard,
+    sqlserver,
+    dash,
+    plotly,
+    css,
     
   } from "../assets";
   
@@ -61,28 +67,25 @@ import {
   
   const services = [
     {
-      title: "React Developer",
-      icon: react,
-    },
-    {
-      title: "SQL Developer",
-      icon: sql,
+      title: "Python Developer",
+      icon: python,
     },
     {
       title: "JavaScript Developer",
       icon: javascript,
     },
     {
-      title: "AI Tools Developer",
-      icon: ai,
+      title: "SQL Developer",
+      icon: sql,
+    },
+    {
+      title: "React Developer",
+      icon: react,
     }
   ];
   
   const technologies = [
-    {
-      name: "SQL",
-      icon: sql,
-    },
+    
     {
       name: "Python",
       icon: python,
@@ -92,8 +95,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "SQL Server",
+      icon: sqlserver,
     },
     {
       name: "React JS",
@@ -104,37 +111,44 @@ import {
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Dash by Plotly",
+      icon: dash,
+    },
+    {
+      name: "Plotly",
+      icon: plotly,
+    },
+    {
+      name: "HTML",
+      icon: html,
+    },
+    {
+      name: "CSS",
+      icon: css,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "Express JS",
-      icon: express,
-    },
    
-    {
-      name: "HTML",
-      icon: html,
-    },
+    
   ];
   
   const experiences = [
 
     {
-      title: "Data Analyst",
+      title: "Business Intelligence Analyst",
       company_name: "Medway NHS Foundation Trust",
       icon: nhsbi,
       iconBg: "#FFFFFF",
       date: "Mar 2020 - Present",
       points: [
-        "In this role, I'm responsible for the delivery and assurance of dozens of regular reports deliverable to NHS shareholders on behalf of Medway's Business Intelligence department.",
-        "Required to respond to ad-hoc data and FOI requests, for which custom SQL queries need to be written and executed in order to retrieve the necessary data.",
-        "Tasked with improving up on existing reports, and creating new reports when required by improving existing processes, and automating where possible.",
-        "Enhance processes intuitive techniques, including pushing the agenda towards 1 version of the truth, branded visualisation and automated data flows.",
+        "Spearheaded the delivery and quality assurance of over twenty critical NHS reports, ensuring accurate and timely information dissemination to stakeholders.",
+        "Mastered SSRS and SQL Server to manage and optimise extensive databases, writing and maintaining tens of thousands of lines of SQL code to enhance data retrieval processes.",
+        "Responded to numerous ad-hoc data inquiries and Freedom of Information (FOI) requests by crafting custom SQL queries, demonstrating exceptional problem-solving and technical prowess.",
+        "Championed the integration of Python for advanced data visualisation, significantly improving report comprehension and stakeholder engagement.",
+        "Innovated the reporting process by automating data flows, enforcing a unified data truth, and standardising visual branding, leading to increased efficiency and consistency across all deliverables.",
+        "Pioneered the development of new reports, adhering to strict guidelines and styling conventions, thereby expanding the department's analytical capabilities and report catalogue.",
       ],
     },
 
@@ -160,9 +174,10 @@ import {
       iconBg: "#FFFFFF",
       date: "Feb 2019 - Feb 2020",
       points: [
-        "As part of a team reduced from five to two staff, I took on the main point of contact role for the eRostering system, handling a high volume of inbox queries and phone calls.",
-        "I initiated training sessions for colleagues on the specialised software packages for management and personal use, through onboarding events and one-to-one sessions.",
-        "Performed systems maintenance, ensuring the rostering software was working as intended and fixing or escalating errors and problems where needed, ensuring staff were using the system as intended and adhering to working time directive and annual leave policies, in tandem with the human resources department.",
+        "Stepped into a critical role during a significant staff reduction, transitioning from a five-member team to a duo, ensuring seamless eRostering system operations.",
+        "Emerged as the primary contact for the eRostering system, efficiently managing high volumes of inquiries and support requests via inbox and phone calls.",
+        "Initiated and led training sessions for colleagues, enhancing their proficiency with the eRostering software for both managerial and personal applications.",
+        "Dedicated the majority of efforts to system maintenance, including troubleshooting, error resolution, and escalation, guaranteeing optimal software performance and compliance with organisational policies in collaboration with the human resources department.",
       ],
     },
     
@@ -173,10 +188,11 @@ import {
       iconBg: "#383E56",
       date: "Jun 2015 - Jan 2019",
       points: [
-        "In Medical Staffing I filled gaps in the doctor’s rota by vetting doctors for compliance, reporting inadequacies, negotiating with agencies, and logging spend in a purpose-built system.",
-        "Provided advice to colleagues as a resourcing officer, coordinating recruitment processes, maintaining staff files, undertaking HR projects, and producing reports with recommendations for improvements.",
-        "Assisted nursing colleagues with the retrieval of information from health records using specialist applications, and with bulk data entry.",
-        "Learned a lot of generic administrative functions through organizing meetings, taking minutes, inbox upkeep and preparing confidential case files and patient records.",
+        "Managed the job recruitment lifecycle from job advertisement to final appointment, ensuring a smooth and efficient process for all candidates.",
+        "Played a foundational role in a newly established service, offering comprehensive administrative support across various professions, including School Nurses and Health Visitors.",
+        "Served as a vital liaison between the NHS and the Department for Education, ensuring the precise and timely distribution of vaccination consent forms by coordinating with schools in the catchment area, fostering effective information and data exchange.",
+        "Entrusted with the critical responsibility of filling vacancies in the Trust's doctor's rota within specified timelines, ensuring cost-efficiency and compliance with budget constraints.",
+        "Developed and maintained a detailed spreadsheet to track the Trust's expenditure on agency doctors, providing key insights into potential cost-saving opportunities through data analysis.",
       ],
     },
 
@@ -212,31 +228,39 @@ import {
   
   const projects = [
     {
-      name: "SQL Query Generator",
+      name: "NHS Python / Data Analyst Documentation Site",
       description:
-        "A web-based platform built using React, Node.js, and the OpenAI API that allows users to generate a SQL query based upon their provided plain text description.",
+        "This project explores Python's application in data analysis within the NHS, covering contrasts with SQL, data cleaning, visualisation using Plotly, statistical analysis with NumPy and SciPy, predictive modeling using TensorFlow, dashboard development with Dash, automation scripts, and insights into leveraging ChatGPT for workflow efficiency.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
+          name: "python",
+          color: "yellow-text-gradient",
+        },
+        {
           name: "nodejs",
           color: "green-text-gradient",
         },
         {
-          name: "openai",
+          name: "git",
           color: "text-white",
         },
+        {
+          name: "heroku",
+          color: "purple-text-gradient",
+        },
       ],
-      image: placeholder,
+      image: nhspydocu,
       source_code_link: "https://github.com/",
-      web_link: "",
+      web_link: "https://nhspycomdocu-d50cecae6387.herokuapp.com/",
     },
     {
       name: "Article Summariser",
       description:
-        "A web application built using React, TailwindCSS, Redux Toolkit and OpenAI API that allows users to paste in a URL and have the text from the page summarised.",
+        "'AI Article Summariser' is a straightforward web application constructed upon OpenAI's API infrastructure, employing the GPT-4 model to efficiently condense and summarise the contents of a given URL. The application seamlessly integrates various technologies such as ReactJS, TailwindCSS, Redux Toolkit, and RapidAPI, amalgamating their capabilities to deliver a cohesive and user-friendly platform for summarisation tasks.",
       tags: [
         {
           name: "react",
@@ -255,31 +279,48 @@ import {
           name: "redux",
           color: "purple-text-gradient",
         },
+        {
+          name: "netlify",
+          color: "green-text-gradient",
+        },
         
       ],
       image: aisummariser,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/adamross94/ai_article_summariser",
       web_link: "https://summariser.arosso.co.uk/",
     },
     {
-      name: "Healthcare Dashboard",
+      name: "A Data Dashboard built with Dash by Plotly",
       description:
-        "A healthcare dashboard built with React and CSS. The data is retrieved through a purpose built API configured with Node & SQL, and rendered with Recharts. ",
+        "This project created a web dashboard using Dash, Plotly, Pandas, and NumPy to visualise healthcare staffing data, including metrics like fill rates and care hours per patient day (CHPPD). It offers intuitive navigation with dropdown menus for dynamic filtering and presents insights through various charts, aiding resource allocation decisions.",
       tags: [
         {
-          name: "react",
+          name: "python",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "html",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css",
           color: "blue-text-gradient",
         },
         {
-          name: "nodejs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "SQL",
+          name: "dash",
           color: "white-text-gradient",
         },
+        {
+          name: "plotly",
+          color: "white-text-gradient",
+        },
+        {
+          name: "heroku",
+          color: "purple-text-gradient",
+        },
+       
       ],
-      image: placeholder,
+      image: safestaffingdashboard,
       source_code_link: "https://github.com/",
       web_link: "https://summariser.arosso.co.uk/",
     },

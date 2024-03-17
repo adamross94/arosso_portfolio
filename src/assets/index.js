@@ -7,6 +7,8 @@ import python from "./python.png";
 import ai from "./ai.png";
 import sql from "./sql.png";
 import next from "./next.png"
+import nhspydocu from "./nhspydocu.png"
+import safestaffingdashboard from "./safestaffingdashboard.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -23,6 +25,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import express from "./tech/express.png";
 import mui from "./tech/mui.png";
+import sqlserver from "./tech/sqlserver.png";
+import dash from "./tech/dash.png";
+import plotly from "./tech/plotly.png";
 
 import nhse from "./company/nhse.png";
 import nhsm from "./company/nhsm.png";
@@ -62,5 +67,10 @@ export {
   mui,
   placeholder,
   aisummariser,
-  next
+  next,
+  nhspydocu,
+  safestaffingdashboard,
+  sqlserver,
+  dash,
+  plotly,
 };

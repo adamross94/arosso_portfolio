@@ -67,7 +67,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-5 text-secondary text-[19px] max-w-3xl leading-[30px]'
       >
-       I'm a skilled web app developer with expertise in React and SQL. I thrive on tackling intricate projects and strive to make them streamlined, expandable, and intuitive. I embrace progressive technologies to enhance user experiences, utilising modern charting libraries like ChartJS for dynamic data visualisation, and conducting comprehensive data analysis with modern AI tools. I'm committed to remaining current with the most recent advancements in the field, ensuring I'm able to integrate state-of-the-art approaches into projects.
+       As a proficient frontend and backend developer specialising in Python, JavaScript, HTML, CSS, and SQL, I excel in crafting robust web applications. My expertise lies in leveraging frameworks like React to build dynamic user interfaces while ensuring seamless integration with backend systems. With a focus on data analysis and visualisation, I employ modern tools such as Plotly for dynamic data representation, ensuring intuitive and informative user experiences. My commitment to continuous learning enables me to stay abreast of the latest advancements in frontend and backend development, allowing me to deliver cutting-edge solutions tailored to meet project requirements.
       </motion.p>
 
 
