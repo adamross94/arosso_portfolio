@@ -287,7 +287,7 @@ import {
       ],
       image: aisummariser,
       source_code_link: "https://github.com/adamross94/ai_article_summariser",
-      web_link: "https://summariser.arosso.co.uk/",
+      web_link: "https://candid-moonbeam-78f4d8.netlify.app/",
     },
     {
       name: "A Data Dashboard built with Dash by Plotly",
