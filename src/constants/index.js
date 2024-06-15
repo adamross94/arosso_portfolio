@@ -322,7 +322,7 @@ import {
       ],
       image: safestaffingdashboard,
       source_code_link: "https://github.com/",
-      web_link: "https://summariser.arosso.co.uk/",
+      web_link: "https://enigmatic-meadow-20597-4e8150c7aaf3.herokuapp.com/",
     },
   ];
   
